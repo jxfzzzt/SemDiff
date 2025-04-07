@@ -7,9 +7,13 @@ SemDiff is the base tool that computes a semantic diff between two Java source f
 SemDiff uses the [Eclipse Java development tools (JDT)](http://www.eclipse.org/jdt/) to be able to compute a semantic diff.
 
 ### How to Package this Maven Project?
-you need to first install the jar to local maven repo and then package the maven project.
+Simply run the `package.sh` script, which will complete the following two steps:
 
-    $ bash package.sh 
+1. Install the JAR to the local Maven repository.
+2. Package the Maven project.
+
+After the script finishes, you will find the `SemDiff.jar` file in the `target` folder.
+
 
 
 

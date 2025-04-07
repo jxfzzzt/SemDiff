@@ -1,5 +1,6 @@
 #! /bin/bash
 
+jenv global 1.8
 
 mvn install:install-file \
   -Dfile=libs/1.jar \
@@ -85,4 +86,4 @@ mvn install:install-file \
   -Dversion=1.0 \
   -Dpackaging=jar
 
-
+mvn clean package
